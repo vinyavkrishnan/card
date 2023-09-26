@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 650px;
+    
+    letter-spacing: 1px;
+}
+h1{
+    color: black;
+    padding: 20px;
+    font-weight: 500;
+}
+h1 span{
+    font-weight: 200;
+}
+.cards{
+    height: 450px;
+    width: 300px;
+    padding: 50px 20px;
+    margin: 10px;
+    color:black;
+    text-align: center;
+    background-color: white;
+   border-radius: 10%;
+    box-shadow:inset 0 0 100px;
+    transition: 0.5s all ease-in-out;
+}
+.cards:hover{
+    box-shadow: 0 0 100px;
+}
+.cards img{
+    width:150px;
+    border-radius: 20%;
+    margin-bottom: 10px;
+    padding: 2px;
+    outline: 2px solid rgb(17, 17, 16);
+}
+.cards h4{
+    font-size: 18px;
+}
+.cards p{
+    font-size: 13px;
+    margin-top: 10px;
+    color:black;
+}
+.cards a button {
+    margin-top: 10px;
+    padding: 10px 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+    box-shadow:inset 0 0 100px white;
+}
+
+.cards a button:hover {  
+    box-shadow:inset 0 0 10px ;
+}
+
+.social-media a i {
+    color: #fff;
+    font-size: 10px;
+    padding: 10px 2px;
+    transition: 0.5s;
+}
+
+.social-media a i:hover {
+    color: yellow;
+    size: 30px;
+}
+
+.social-media {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    size: 10px;
+}
+
